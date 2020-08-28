@@ -1,24 +1,47 @@
-## Thunar  
+## thunar  
   
 Thunar is a modern file manager  
   
-requires:    
-apt: ```apt install thunar```  
-yum: ```yum install thunar```  
-pacman: ```pacman -S thunar```  
-  
 Automatic install/update:
+
+```shell
+bash -c "$(curl -LSs https://github.com/dfmgr/thunar/raw/master/install.sh)"
 ```
-bash -c "$(curl -LSs https://github.com/dfmgr/Thunar/raw/master/install.sh)"
-```
+
 Manual install:
-```
-mv -fv "$HOME/.config/Thunar" "$HOME/.config/Thunar.bak"
-git clone https://github.com/dfmgr/Thunar "$HOME/.config/Thunar"
+  
+requires:
+
+Debian based:
+
+```shell
+apt install thunar
+```  
+
+Fedora Based:
+
+```shell
+yum install thunar
+```  
+
+Arch Based:
+
+```shell
+pacman -S thunar
+```  
+
+MacOS:  
+
+```shell
+brew install
 ```
   
+```shell
+mv -fv "$HOME/.config/thunar" "$HOME/.config/thunar.bak"
+git clone https://github.com/dfmgr/thunar "$HOME/.config/thunar"
+```
   
 <p align=center>
-  <a href="https://wiki.archlinux.org/index.php/Thunar" target="_blank">Thunar wiki</a>  |  
-  <a href="https://docs.xfce.org/xfce/thunar/start" target="_blank">Thunar site</a>
+  <a href="https://wiki.archlinux.org/index.php/thunar" target="_blank" rel="noopener noreferrer">thunar wiki</a>  |  
+  <a href="https://docs.xfce.org/xfce/thunar/start" target="_blank" rel="noopener noreferrer">thunar site</a>
 </p>  
